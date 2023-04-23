@@ -1,13 +1,16 @@
 {
     "name": "mylibary",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "repository": "git@github.com:teb111/Js-Library.git",
     "author": "oluwatobiloba",
     "license": "MIT",
     "scripts": {
         "compile": "rm -rf dist/lib && tsc && tsc --build tsconfig.es5.json"
     },
-      "dependencies": {
+    "devDependencies": {
         "typescript": "^5.0.4"
+    },
+    "dependencies": {
+        "mylibary": "^1.0.1"
     }
 }

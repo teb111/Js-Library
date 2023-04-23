@@ -1,5 +1,5 @@
 {
-    "name": "@teb/utils",
+    "name": "mylibary",
     "version": "0.0.1",
     "description": "A set of JavaScript utils",
     "main": "lib/es5/index.js",
